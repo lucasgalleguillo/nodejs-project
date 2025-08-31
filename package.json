@@ -1,0 +1,33 @@
+{
+  "name": "first-project",
+  "version": "1.0.0",
+  "description": "this is my first  project ",
+  "main": "index.js",
+  "scripts": {
+    "dev1": "nodemon ./apiBasic/index.js",
+    "dev2": "nodemon ./apiBasic/routing.js",
+    "dev3": "nodemon ./apiBasic/express.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasgalleguillo/nodejs-project.git"
+  },
+  "author": "Lucas Emiliano Galleguillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasgalleguillo/nodejs-project/issues"
+  },
+  "homepage": "https://github.com/lucasgalleguillo/nodejs-project#readme",
+  "dependencies": {
+    "express": "5.1.0",
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "standard": "^17.1.2"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
